@@ -2,7 +2,6 @@ package com.example.a20273028_finalproject;
 
 public class NailDesign {
     String name;
-    int resourceId;
 
     public NailDesign(String name) {
         this.name = name;

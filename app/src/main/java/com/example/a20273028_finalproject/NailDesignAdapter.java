@@ -59,4 +59,13 @@ public class NailDesignAdapter extends RecyclerView.Adapter<NailDesignAdapter.Vi
     {
         this.items = items;
     }
+    public NailDesign getItem(int position)
+    {
+        return items.get(position);
+    }
+    public void setItem(int position, NailDesign item)
+    {
+        items.set(position, item);
+    }
+
 }
